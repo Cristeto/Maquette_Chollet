@@ -1,0 +1,22 @@
+fm_elfinder:
+    assets_path: /assets/elfinder
+    instances:
+        default:
+            include_assets: true
+            editor: ckeditor
+            relative_path: true
+            connector:
+                binds:
+                    upload.presave:
+                        - Plugin.AutoResize.onUpLoadPreSave
+                plugins:
+                    AutoResize: # global resize options, applies to root which don't have his own resize configuraion 
+                        enable: true 
+                        maxWidth: 1920 
+                        maxHeight: 1080 
+                        quality: 80 # JPEG image save quality
+                roots:
+                    uploads:
+                        driver: LocalFileSystem
+                        path: uploads
+                        upload_allow: ['image/png', 'image/jpg', 'image/jpeg', 'application/pdf']

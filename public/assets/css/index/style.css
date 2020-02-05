@@ -1,0 +1,189 @@
+/* --------------------------------------------------------------- */
+/*
+/* Contenu bandeau haut
+/*
+/* --------------------------------------------------------------- */
+
+#contenu_bandeau {
+	padding-top: 90px;
+}
+
+#logo_bandeau {
+	text-align: right;
+}
+
+#logo_bandeau #logo_blanc {
+	display: inline-block;
+	margin-bottom:15px;
+}
+
+
+#specialites_bandeau {
+	text-transform: uppercase;
+	font-size: 8px;
+	font-weight: 500;
+	display: block;
+	color: white;
+	text-align: right;
+	font-size: 14px;
+}
+#chollet_bandeau {
+	text-transform: uppercase;
+	color: white;
+	display: block;
+	text-align: right;
+	font-weight: 800;
+	font-size: 28px;
+}
+.texte_bandeau {
+	padding-top: 40px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 23px;
+	text-align: right;
+}
+
+.texte_bandeau span {
+	display: block;
+}
+
+.texte_bandeau span.bold {
+	font-weight: 800;
+}
+/* --------------------------------------------------------------- */
+/*
+/* Qui sommes nous
+/*
+/* --------------------------------------------------------------- */
+
+#qui_sommes_nous {
+	background: url('../../img/index/bg_qui_sommes_nous.png') no-repeat left  bottom;
+	background-size: 650px;
+	padding-bottom: 40px;
+}
+
+#paragraphe {
+	font-size: 14px;
+}
+
+
+#vue_air {
+	position: relative;
+	margin-top: 80px;
+	width: 500px;
+	height:
+}
+
+#grue {
+	height: 260px;
+
+}
+#grue_2 {
+	width: 500px;
+	border: 25px solid;
+	border-color: white;
+	margin-left: -90px;
+}
+
+
+/* --------------------------------------------------------------- */
+/*
+/* Notre expertise
+/*
+/* --------------------------------------------------------------- */
+
+#notre_expertise {
+	background-color: #f8f8f8;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#titre_expertise{
+	margin-bottom: 30px;
+}
+
+h5 {
+	font-weight: 800;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#notre_expertise p {
+	font-size: 12px;
+}
+
+#casque {
+	width: 40px;
+}
+#roue_tapis {
+	width: 40px;
+}
+#check_box {
+	width: 40px;
+}
+#soudeur {
+	position: relative;
+	margin-top: -50px;
+	height: 400px;
+}
+
+/* --------------------------------------------------------------- */
+/*
+/* Nos competences
+/*
+/* --------------------------------------------------------------- */
+
+#nos_competences {
+	min-height: 550px;
+}
+#nos_competences_bg {
+	position: absolute;
+}
+#titre_competences {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.square {
+	position: relative;
+	top: 170px;
+	background-color: white;
+	width: 300px;
+	height: 190px;
+	/* box-shadow: 0px 5px 5px grey; */
+	-webkit-box-shadow: 0px 10px 11px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 10px 11px -7px rgba(0,0,0,0.75);
+	box-shadow: 0px 10px 11px -7px rgba(0,0,0,0.75);
+}
+
+.contenu_decale{
+	position: relative; top: -150px; left: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	padding-top: 12px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+
+#mecano_soudure {
+	width: 285px;
+	height: 240px;
+}
+#chaudronnerie {
+	width: 285px;
+	height: 240px;
+}
+#usinage {
+	width: 285px;
+	height: 240px;
+}
+
+.btn-warning {
+	padding-top: 12px;
+	color: white;
+	font-size: 12px;
+
+}

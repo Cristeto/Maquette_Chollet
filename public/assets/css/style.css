@@ -1,0 +1,276 @@
+/* --------------------------------------------------------------- */
+/*
+/* HTML
+/*
+/* --------------------------------------------------------------- */
+* {
+	box-sizing:border-box;
+}
+
+html, body {
+	margin:0; padding:0; width:100%; height:100%;
+	font-family:"Montserrat"; font-size:13px;
+	font-weight: 400;
+}
+
+body {
+	text-align:center;
+}
+
+#main {
+	position:relative; top:0; left:0;
+	width:100%; min-height:100%;
+	margin:0 auto;
+	text-align:left;
+	color:#030c21;
+	background-color:#fff;
+	overflow-x:hidden;
+}
+
+
+
+/* --------------------------------------------------------------- */
+/*
+/* Header
+/*
+/* --------------------------------------------------------------- */
+#entete {
+	position:relative; top:0; left:0;
+	min-height:150px;
+}
+
+#entete #logo {
+	position:relative; top:0; left:0;
+	height: auto;
+}
+
+#main .logo {
+	position: relative; top: 0; left: 0;
+	text-align: center;
+
+}
+#main .logo .specialites {
+	text-transform: uppercase;
+	font-size: 8px;
+	font-weight: 500;
+	display: block;
+	margin:0 15px;
+}
+
+#main .logo .chollet {
+	font-size: 19px;
+	font-weight: 900;
+}
+
+#entete #langues {
+	text-align: right;
+}
+
+#entete #langues a {
+	display: inline-block;
+	margin-left:15px;
+}
+
+
+/* --------------------------------------------------------------- */
+/*
+/* Menu
+/*
+/* --------------------------------------------------------------- */
+#menu {
+	position:relative; top:0px; left:0;
+	width:100%;
+	margin-top:30px;
+
+}
+
+#menu ul {
+	list-style-type:none; margin:0; padding:0;
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+
+#menu ul li {
+	position: relative; top: 0; left: 0;
+	margin:0px; padding:0;
+}
+
+#menu ul li a {
+	position: relative; top: 0; left: 0;
+	text-decoration:none;
+	display:block;
+	color:#030c21;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#menu ul li:hover a:after {
+	content:"";
+	position: absolute; bottom: -10px; left: 50%;
+	width:60px; height:4px; margin-left:-30px;
+	background-color: #ffa800;
+}
+
+
+#menu ul li ul {
+	position:absolute; top:30px; left:0;
+	display:none;
+}
+
+#menu ul li:hover ul {
+	display:block;
+}
+
+#menu ul li ul li {
+	margin:0;
+}
+
+/* --------------------------------------------------------------- */
+/*
+/* Bandeau page
+/*
+/* --------------------------------------------------------------- */
+#bandeau_page {
+	position: relative; top: 0; left: 0;
+	width:100%; height:582px;
+	margin-bottom: 40px;
+}
+
+#fond_bandeau {
+	position: absolute; top: 0; left: 50%;
+	width:1920px; height:100%;
+	margin-left:-960px;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1b3878+0,23489c+100 */
+	background: rgb(27,56,120); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(27,56,120,1) 0%, rgba(35,72,156,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(27,56,120,1) 0%,rgba(35,72,156,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(27,56,120,1) 0%,rgba(35,72,156,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b3878', endColorstr='#23489c',GradientType=0 ); /* IE6-9 */
+}
+
+#fond_bandeau #diapo {
+	position: relative;
+	display: inline-block;
+
+}
+
+#fond_bandeau #triangle_blanc {
+	position: absolute; top: 0; right: -125px;
+	width:310px; height:582px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1b3878+0,23489c+100 */
+	background: #FFF;
+	transform:skewX(25deg);
+}
+
+
+#fond_bandeau #triangle_bleu {
+	position: absolute; top: 0; right: -135px;
+	width:310px; height:582px;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1b3878+0,23489c+100 */
+	background: rgb(27,56,120); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(27,56,120,1) 0%, rgba(35,72,156,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(27,56,120,1) 0%,rgba(35,72,156,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(27,56,120,1) 0%,rgba(35,72,156,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b3878', endColorstr='#23489c',GradientType=0 ); /* IE6-9 */
+	transform:skewX(25deg);
+}
+/* --------------------------------------------------------------- */
+/*
+/* Page
+/*
+/* --------------------------------------------------------------- */
+#page {
+	position:relative; top:0; left:0;
+	min-height:350px;
+}
+
+#page a {
+	text-decoration: none;
+}
+
+#page h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #23489c;
+}
+#page h1 span:first-child {
+	color: #ffa800;
+	padding-right: 5px;
+	font-weight: 400;
+}
+
+
+/* --------------------------------------------------------------- */
+/*
+/* Pied
+/*
+/* --------------------------------------------------------------- */
+#pied {
+	background: url('../img/footer_chollet.png') no-repeat;
+	width: 100%;
+	height: 207px;
+	position: relative;
+	padding-top: 50px;
+}
+#pied h1 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #23489c;
+}
+#pied h1 span:first-child {
+	color: #ffa800;
+	padding-right: 5px;
+	font-weight: 400;
+}
+#pied p {
+	color: white;
+}
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+}
+.fa-facebook-square {
+	color: #5372b9;
+}
+.fa-twitter-square {
+	color: #5372b9;
+}
+.fa-google-plus-square {
+	color: #5372b9;
+}
+.fa-file-pdf {
+	color: #ffa800;
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+#logo_footer {
+	margin-left: 60px;
+}
+.fab {
+	margin-top: 10px;
+	padding-left: 18px;
+}
+
+#footer_bas {
+	font-size: 13px;
+}
+
+#logo_inline {
+	height: 25px;
+	padding-left: 15px;
+}
+/* --------------------------------------------------------------- */
+/*
+/* Général
+/*
+/* --------------------------------------------------------------- */
+a img {
+	border:none;
+}

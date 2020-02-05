@@ -1,0 +1,2 @@
+imports:
+    - { resource: vich_uploader/ }

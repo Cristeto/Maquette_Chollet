@@ -1,0 +1,149 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="{{ asset('assets/css/index/style.css') }}" />
+{% endblock %}
+
+{% block body %}
+<div id="bandeau_page">
+     <div id="fond_bandeau">
+          <div id="diapo">
+               <div class="cycle-slideshow">
+                    <img src="{{ asset('assets/img/img_diapo.jpg') }}" alt="" />
+               </div>
+               <div id="triangle_blanc"></div>
+               <div id="triangle_bleu"></div>
+          </div>
+     </div>
+
+     <div id="contenu_bandeau">
+          <div class="container">
+               <div class="row justify-content-end align-items-center">
+                    <div class="col-md-4">
+                         <div id="logo_bandeau">
+                              <a href="{{ path('index') }}" id="logo_blanc"><img src="{{ asset('assets/img/logo_blanc.png') }}"></a>
+                              <span id="specialites_bandeau">Mécano - Soudure -<br> Chaudronnerie - Usinage</span>
+                              <span id="chollet_bandeau">Ets CHOLLET</span>
+                         </div>
+                         <div class="texte_bandeau">
+                              <span class="bold">Chaudronnerie</span>
+                              <span>lourde en acier noir</span>
+                              <span class="bold">pièce de sécurité</span>
+                              <span>usinée</span>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
+
+<div class="container" id="qui_sommes_nous">
+	<div class="row">
+         	<div class="col-md-6 description text-right">
+              <h1>
+                   	<span>Qui \ </span>
+                   	<span> sommes-nous ?</span>
+              </h1>
+              <p><strong>Les Établissements Chollet </strong>situés à Beaulon dans le département de l'Allier sont spécialisés dans <strong>la chaudronnerie lourde </strong>et <strong>l'usinage sur tour vertical et aléseuse</strong></p>
+              <img id="vue_air" src="{{ asset('assets/img/index/vue_arienne.jpg') }}">
+         	</div>
+          <div class="col-md-6">
+               <img id="grue" src="{{ asset('assets/img/index/grue.jpg') }}">
+               <img id="grue_2" src="{{ asset('assets/img/index/grue_2.jpg') }}">
+          </div>
+	</div>
+</div>
+
+<div id="notre_expertise">
+     <div class="container">
+          <h1 id="titre_expertise">
+               <span>Notre \ </span>
+               <span> expertise</span>
+          </h1>
+          <div class="row">
+               <div class="col-md-4">
+                    <div class="row">
+                         <div class="col-2">
+                              <img id="casque" src="{{ asset('assets/img/index/casque_crante.png') }}">
+                         </div>
+                         <div class="col-10">
+                              <h5>Nous sommes spécialistes de :</h5>
+                              <p>soudage (MAG et Arc submergé) ,14 soudeurs qualifiés, coordonnés par un ingénieur IWE, pour vous garantir l'application de la mise en œuvre de votre cahier des charges.<br>▶ fabrication de structures en acier jusqu’à 16 tonnes pour le bâtiment (Marquage CE), et de pièces de sécurités pour les remontées mécaniques, levage, transport, énergie...<br>▶ L’usinage unitaire ou en petite série sur fraiseuse CN, aléseuse conventionnelle et tour vertical conventionnel Ø 2 mètres.</p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-md-4">
+                    <div class="row">
+                         <div class="col-2">
+                              <img id="roue_tapis" src="{{ asset('assets/img/index/roue_tapis.png') }}">
+                         </div>
+                         <div class="col-10">
+                              <h5>Nous disposons :</h5>
+                              <p>▶ d'un réseau de sous-traitants en mécanique, stabilisation, traitement thermique, contrôle non destructif des soudures (COFREND) et peinture .</p>
+                              <h5>Nous possédons :</h5>
+                              <p>▶  2 ateliers de production d'une surface totale de 4 000 m² sur 2 hectares et une capacité de levage de 16 tonnes.</p>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-2">
+                              <img id="check_box" src="{{ asset('assets/img/index/check_box.png') }}">
+                         </div>
+                         <div class="col-10">
+                              <h5>Nous sommes certifiés :</h5>
+                              <p>▶ ISO 9001<br>▶ EN 1090 EXC 3 sur acier<br>▶ ISO 3834<br>▶ Soudeurs qualifiés ISO 9606-1 MAG et AS<br>▶ QMOS ISO 15614</p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-md-4">
+                    <img id="soudeur" src="{{ asset('assets/img/index/soudeur.png') }}">
+               </div>
+          </div>
+     </div>
+</div>
+<div id="nos_competences">
+     <img id="nos_competences_bg" src="{{ asset('assets/img/index/nos_competences_bg.png') }}">
+     <div class="container">
+          <div class="row">
+               <div class="col-md-12 d-flex justify-content-center">
+                    <h1 id="titre_competences">
+                         <span>Nos \ </span>
+                         <span> competences</span>
+                    </h1>
+               </div>
+          </div>
+          <div class="row">
+               <div class="col-md-4 text-center">
+                    <div class="square">
+                         <div class="contenu_decale">
+                              <img id="mecano_soudure" src="{{ asset('assets/img/index/mecano_soudure.png') }}">
+                              <h2>mecano-soudure</h2>
+                              <button type="button" class="btn btn-warning">En savoir +</button>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-md-4 text-center">
+                    <div class="square">
+                         <div class="contenu_decale">
+                              <img id="chaudronnerie" src="{{ asset('assets/img/index/chaudronnerie.png') }}">
+                              <h2>chaudronnerie</h2>
+                              <button type="button" class="btn btn-warning">En savoir +</button>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-md-4 text-center">
+                    <div class="square">
+                         <div class="contenu_decale">
+                              <img id="usinage" src="{{ asset('assets/img/index/usinage.png') }}">
+                              <h2>usinage</h2>
+                              <button type="button" class="btn btn-warning">En savoir +</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+</div>
+
+{% endblock %}
